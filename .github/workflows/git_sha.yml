@@ -11,4 +11,5 @@ jobs:
 
       - name: Use the correct commit ID
         run: |
+          echo "Hi"
           echo "Commit SHA: ${{ github.sha }}"
